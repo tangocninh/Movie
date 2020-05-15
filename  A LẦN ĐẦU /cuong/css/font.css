@@ -1,0 +1,7 @@
+@font-face{
+    font-family: Dosis-Regular;
+  src: url(../font/static/Dosis-Medium.ttf);
+}
+body{
+    font-family: Dosis-Regular;
+}

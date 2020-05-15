@@ -1,0 +1,219 @@
+
+.noi-dung{
+    background-color: #020d18;
+    
+}
+.noi-dung2{
+    padding-top: 4% ;
+    padding-bottom: 4% ;
+}
+.list table{
+    width: 100%;
+    text-align: center;
+    border: 1px solid #405266;
+}
+.list table {
+    border-left: none;
+    border-right: none;
+    color: white;
+}
+.list table select,button{
+    color: white;
+}
+.list table select,button{
+    border: none;
+    background: none;
+}
+.list table select{
+    width: 100%;
+}
+.list-film-1{
+   margin-top: 10px;
+}
+.list-film-1 .box img{
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+}
+.list-film-1 .doc-them{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    opacity: 0.5;
+    display: none;
+    transition: 0.6s;
+    z-index: 2;
+    
+}
+.list-film-1 .doc-them a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #dd003f;;
+    color: white;
+    font-size: 18px;
+    z-index: 2;
+    -moz-border-radius: 30%;
+    -webkit-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius:30%;
+    border-radius: 20px;
+}
+.list-film-1 .box:hover img{
+    opacity: 0.7;
+    transition: 0.6s;
+}
+
+.list-film-1 .box:hover .doc-them{
+    display: block;
+    transition: 1s;
+    opacity: 0.8;
+}
+.list-film-1  .chu1{
+    margin-top: 5px;
+    color: white;
+}
+.list-film-1 .box:hover .chu1{
+    color: yellow;
+}
+
+.list-film-2 img{
+    width: 100%;
+    border-radius: 5px;
+}
+.list-film-2 p{
+    color: #abb1be;
+}
+.list-film-2 a{
+    color: #3a78b4;
+}
+.list-film-2 a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+.list-film-1 .row{
+    margin-top: 10px;
+}
+.list-film-2{
+    display: none;
+}
+.tim-kiem h4{
+    color: white;
+    border-bottom: 1px solid #405266;
+}
+.tim-kiem form{
+    border: 3px solid #405266;
+    background-color: #0b1a2a;
+    padding: 20px;
+}
+.tim-kiem form label{
+    color: #74a8c4;
+}
+
+.tim-kiem form button{
+    width: 100%;
+}
+.tim-kiem .khoang-nam{
+    width: 100%;
+    margin: 0px auto;
+}
+.tim-kiem input, .tim-kiem select{
+    background-color: #233a50;
+    color: white;
+}
+
+.banner{
+    background-image: url(../images/error-bg.jpg);
+}
+.banner-2{
+    padding: 10% 10%;
+}
+.banner-3{
+    text-align: center;
+}
+.banner-3 h1{
+    color: white;
+    margin-top: 20px;
+}
+.banner-3 p{
+    color: #abb7c4;
+    font-size: 17px;
+}
+
+.sap-xep td{
+    border-left: 0.5px solid #405266;
+    border-right: 0.5px solid #405266;
+}
+
+.sap-xep td:nth-child(3n+1){
+    border: none;
+}
+.next-trang span{
+    margin-left: 20px;
+}
+
+.next-trang a{
+    margin: 4px;
+}
+.next-trang a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px){
+    .noi-dung2{
+        width: 100%;
+        padding: 0px;
+    }
+    .list-film-1 .chu1 {
+        margin-top: 5px;
+        color: white;
+        font-size: 16px;
+    }
+    .tim-kiem form {
+        border: 3px solid #405266;
+        background-color: #0b1a2a;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 576px) { 
+    
+ }
+
+
+@media (min-width: 768px) { ... }
+
+
+@media (min-width: 992px) { ... }
+
+
+@media (min-width: 1200px) { ... }

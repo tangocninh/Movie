@@ -1,0 +1,149 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.banner{
+    background-image: url(../images/error-bg.jpg);
+   width: 100%;
+}
+.banner-2{
+    text-align: center;
+    padding: 20% 0% 10% 0%;
+    color: white;
+}
+.danh-sach2{
+    padding: 10% 0px;
+}
+.danh-sach{
+    background-color: #020d18;
+}
+.list-box {
+    display: flex;
+    background-color: #071829;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+.list-box .box-text{
+    padding: 20px;
+}
+.list-box img{
+    flex: 3;
+    width: 100%;
+    border-radius: 5px;
+}
+.list-box:hover a{
+    color: yellow;
+    text-decoration: none;
+}
+.list-box .box-text span,p{
+    color: #abb7c4;
+}
+.danh-sach3 .next{
+    text-align: center;
+    
+}
+.danh-sach3 .next button{
+    background: none;
+    border: none;
+    border: 0.5px solid #405266;
+    color: #405266;
+    margin: 5px;
+    padding: 5px 10px;
+}
+.danh-sach3 .next button:hover{
+    border-color: yellow ;
+    color: yellow;
+}
+.search h4{
+    color: #ffffff;
+    padding-bottom: 5px;
+    border-bottom: 0.5px solid #405266;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.search .tk{
+    margin-bottom: 30%;
+}
+.search .tk-input{
+    width: 100%;
+    position: relative;
+    
+}
+.search .tk-input input{
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    background-color: #233a50;
+    padding: 10px;
+    color: #7d8287;
+    
+}
+.search .tk-input button{
+    border: none;
+    background: none;
+    color: #7d8287;
+    position: absolute;
+    top: 9px;
+    right: 10px;
+}
+.tk .the-loai ul{
+    list-style: none;
+    padding: 0px;
+}
+.tk .the-loai a{
+    display: block;
+    color: #9eaab7;
+    margin-bottom: 20px;
+}
+.tk .the-loai a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+.pho-bien span{
+    text-align: center;
+    display: block;
+    color: #4f5b68;
+    font-size: 50px;
+    font-weight: 350;
+}
+.pho-bien a{
+    color: #356a9f;
+    font-weight: 500;
+    font-size: 13px;
+}
+.pho-bien a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+.pho-bien .pb-link{
+    margin-left: 20px;
+    
+}
+.tag a{
+    color: #abb7c4;
+    font-size: 14px;
+   
+}
+.tag ul{
+    list-style: none;
+    padding: 0px;
+}
+.tag li{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #152a3e;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.tag li:hover a{
+    color: yellow;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 530px) {
+    .list-box img{
+        flex: 10;
+    }
+}

@@ -1,0 +1,364 @@
+body{
+    font-family: 'Nunito', sans-serif;
+}
+.aaaaa{
+    background: #020d18;
+    padding: 0px;
+}
+h1{
+    font-family: 'Dosis', sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    color: #abb7c4;
+    font-weight: 300;
+    text-transform: none;
+    line-height: 24px !important;
+}
+.top-search{
+    border: 4px solid #020d18;
+    background-color: #233a50;
+}
+.top-search select{
+    width: 20%;
+    padding: 6px 12px 6px 12px;
+    border: none;
+    font-size: 14px;
+    border-right: 1px solid #020d18;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url(../images/drop-icon.png) no-repeat right 20px center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.top-search input{
+    width: 79%;
+    height: 46px;
+    background: url(../images/topsearch.png) no-repeat right 20px center;
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    text-transform: none;
+    color: #ffffff;
+}
+::-webkit-input-placeholder{
+    color: #ffffff;
+    font-size: 14px;
+}
+.background {
+    background-image: url(../images/uploads/celeb-hero-single.jpg);
+    height: 538px;
+    max-width: 100%;
+    
+}
+.body{
+    padding-bottom: 75px;
+}
+.celebrity-img{
+    margin-right: 30px;
+    margin-bottom: 60px;
+}
+.celebrity-single{
+    font-size: 18px;
+    
+}
+.icon{
+    margin-bottom: 75px;  
+}
+.icon a{
+    padding-left: 10px;
+}
+
+.icon a i:hover{
+    color: #4183C4;
+}
+.icon a i{
+    margin-right: 15px;
+    color: #abb7c4;
+}
+.content-menu-tab{
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+.content-menu-tab li{
+    display: inline-block;
+    margin-right: 50px;
+    
+}
+.content-menu-tab li a{
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#abb7c4 ;
+}
+.content-menu-tab li a:hover{
+    border-bottom: 3px solid #dcf836;
+    color: #dcf836; 
+}
+.main-content-body-text p {
+    color: #abb7c4;
+}
+.main-content-body-text p a{
+    color: #4280bf;
+    font-size: 12px;
+
+}
+.click{
+    text-decoration: none;
+}
+.click:hover{
+    color: #dc3545;
+    text-decoration: none;
+}
+.body-tiltle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #233a50;
+    padding-bottom: 8px;
+    margin-top: 30px;
+    border-color: #d0dae4;
+}
+.body-tiltle h4{
+    color: #020d18;
+    font-family: 'Dosis', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.body-tiltle a{
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    color: #4280bf;
+}
+.content-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: inherit;
+    flex-wrap: wrap;
+}
+.img-lightbox img{
+    height: 100px;
+    width: 100px;
+}
+.content-img-lightbox{
+    position: relative;
+}
+.lightbox-icon{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+.lightbox-icon img:hover{
+    opacity: 1.5;
+	-webkit-transform:scale(1.2);
+}
+.cast-it{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.the-film-is-closed{
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+.the-film-is-closed img{
+    border-radius: 5px;
+    margin-right: 15px;
+}
+.sb-it{
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.sb-it h6{
+    color: #020d18;
+    font-family: 'Dosis', sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.sb-it p{
+    color: #9ca9b7;
+}
+.tags span a{
+    background-color: #233a50;
+    color: #abb7c4;
+    padding: 2px 5px;
+}
+.active a:active{
+    color: red;
+}
+.biography{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+}
+.biography div{
+    padding-left: 0px;
+}
+.title-h3-h2 div div h3 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    color: #abb7c4;
+    font-weight: bold;
+    text-transform: none;
+    margin-bottom: 15px;
+}
+.title-h3-h2 div div h2{
+    font-family: 'Dosis', sans-serif;
+    color: #4280bf;
+    font-weight: bold;
+    text-transform: none;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.biography p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    color: #abb7c4;
+    font-weight: 300;
+    text-transform: none;
+    line-height: 24px !important;
+}
+.media-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+.vd-it{
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.vd-it img{
+    border-radius: 5px;
+    max-width: 100%;
+}
+.lightbox-icon1{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+.vd-infor h6 a{
+    font-family: 'Dosis', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+}
+.time{
+    font-size: 11px;
+}
+.title-hd-sm{
+    margin-top: 30px;
+    padding-bottom: 8px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #233a50;
+}
+.title-hd-sm h4{
+    font-family: 'Dosis', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+.mvsingle-item{
+    padding-bottom: 30px;
+    margin-right: 15px;
+}
+.mvsingle-item a img{
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.mvsingle-item a img:hover{
+    opacity: 1.2;
+	-webkit-transform:scale(1.2);
+}
+.topbar-filter{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-bottom: 30px;
+    border-top: 1px solid #405266;
+    border-bottom: 1px solid #405266;
+    margin-right: 20px;
+}
+.topbar-filter p{
+    margin-bottom: 0px; 
+    font-size: 14px;
+}
+.topbar-filter label{
+    margin-bottom: 0px;
+}
+.topbar-filter select{
+    padding: 6px 12px 6px 12px;
+    width: 215px;
+    -webkit-appearance: none;   
+    border-left: 1px solid #405266;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    color: #ffffff;
+    background: url(../images/drop-icon.png) no-repeat right 20px center;
+    background-color: #020d18;
+    font-size: 14px;
+}
+@media(min-width:992px){
+    .img-lightbox{
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:991px){
+    .flex-left{
+        margin-left: 5%;
+    }
+    .celebrity-img{
+        margin-bottom:30px;
+    }
+    .celebrity-img img{
+        max-width: 110%;
+    }
+    .content-menu-tab{
+        padding: 0px; 
+        margin-bottom: 30px;
+        display: inline-grid;
+    }
+    .main-content-body-text{
+        padding-right: 20%;
+    }
+    .media-item {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .vd-it{
+        margin-right: 0px
+    }
+}
+@media(max-width:767px){
+    .content-menu-tab{
+        display: inline-grid;
+    }
+    .content-menu-tab li{
+        margin-bottom: 15px;
+    }
+    .content-img{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+        row-gap: 10px;
+    }
+    .top-search{
+        display: none !important;
+    }
+}
+@media(min-width:576px){
+    .biography {
+        padding-right: 20px;
+    }
+}
